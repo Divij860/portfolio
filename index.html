@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "ELUbaXaN4hVI6KuEh",
+      });
+   })();
+</script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+      <a href="#" class="text-xl font-bold text-gray-900">Divij P</a>
+      <nav class="flex space-x-4">
+        <a href="#about" class="text-gray-700 hover:text-gray-900">About</a>
+        <a href="#projects" class="text-gray-700 hover:text-gray-900">Projects</a>
+        <a href="#internship" class="text-gray-700 hover:text-gray-900">Internship</a>
+        <a href="#contact" class="text-gray-700 hover:text-gray-900">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="bg-gray-100">
+    <div class="container mx-auto px-6 py-16 text-center">
+      <h1 class="text-4xl font-bold text-gray-900">Hello, I'm Divij P</h1>
+      <p class="mt-4 text-lg text-gray-700">I'm a graduate in BE CSE with specialisation in Artificial Intelligence and Machine Learning</p>
+    </div>
+  </section>
+
+  <section id="about" class="bg-white py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-gray-900 text-center">About Me</h2>
+      <p class="mt-4 text-lg text-gray-700 text-center">Highly motivated and results-driven professional with a passion for technology and a strong commitment to excellence. Adept knowledge of programming languages like C, C++, Python, Java, Javascript to create innovative and userfriendly 
+        applications, while continuously expanding my technical skillset.I have experience in Fullsatck Web Development and done a project using MERN tools.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="bg-gray-100 py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-gray-900 text-center">Projects</h2>
+      <div class="mt-8 project-grid">
+        <!-- Project 1 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg project-card">
+          <h3 class="text-xl font-bold text-gray-900">Sign Language Animation Generation System</h3>
+          <p class="mt-4 text-gray-700">The sign language animation generating system convert text
+            input to its respective sign language.
+          </p><p class="mt-4 text-gray-700">TechStack: Python – Flask.</p>
+
+        </div>
+        <!-- Project 2 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg project-card">
+          <h3 class="text-xl font-bold text-gray-900">Online Book Store</h3>
+          <p class="mt-4 text-gray-700">Designed a webpage where we can buy and sell books.
+            <p> TechStack: MERN – JavaSript – HTML – CSS</p></p>
+        </div>
+        <!-- Project 3 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg project-card">
+          <h3 class="text-xl font-bold text-gray-900"> Gas Booking System</h3>
+          <p class="mt-4 text-gray-700">A database management system for storing the data related to booking a gas cylinder.
+           <p> TechStack: Java– MySQL– NetBeans .</p></p>
+        </div>
+        <!-- Project 4 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg project-card">
+          <h3 class="text-xl font-bold text-gray-900">Virtual Painter Software</h3>
+          <p class="mt-4 text-gray-700"> A software which can detect the hand gestures and draw on a virtual canvas. Each
+            hand gesture curresponds to different actions.
+            <p> TechStack: Python– OpenCV–PyCharm.</p></p>
+        </div>
+        <!-- Project 5 -->
+       <div class="bg-gray-100 p-6 rounded-lg shadow-lg project-card">
+        <h3 class="text-xl font-bold text-gray-900"> Job Recruitment Application</h3>
+        <p class="mt-4 text-gray-700">An android application that is used for advertising and recruiting for job.
+        <p class="mt-4 text-gray-700">  TechStack: Java– Android Studio– Firebase.</p></p>
+      </div>
+        <!-- Project 6 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg project-card">
+        <h3 class="text-xl font-bold text-gray-900">Content based Movie Suggestion</h3>
+        <p class="mt-4 text-gray-700">A web application which can suggest you movies based on the contents of a previous movie using cosine similarity.
+        <p class="mt-4 text-gray-700">  TechStack: Python– Jupyter Notebook– Streamlit.</p></p>
+      </div>
+      </div>
+    </div>
+    <section id="internship" class="bg-white py-16">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-gray-900 text-center">Internship</h2>
+        <p class="mt-4 text-2xl font-bold">
+          Swizosoft-Fullstack Web Development using MERN
+        </p>
+        <ul class="mt-8 list-disc list-inside text-gray-700">
+          <li>Developed and maintained full-stack web applications using MongoDB, Express.js, React, and Node.js.</li>
+          <li>Participated in the entire software development lifecycle, including requirement analysis, design, development, testing, and deployment.</li>
+          <li>Designed a webpage for an Online Book Store.</li>
+        </ul>
+        <p class="mt-4 text-center text-2xl">
+          Company Website: <a href="https://swizosoft.com/" target="_blank" class="text-blue-500 hover:text-blue-700">swizosoft.com</a>
+        </p>
+      </div>
+    </section>
+
+  <section id="contact" class="bg-gray-100 py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-gray-900 text-center">Contact Me</h2>
+      <form id="contact-form" class="mt-8 max-w-lg mx-auto">
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Name</label>
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your name">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Your email">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Message</label>
+          <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="5" placeholder="Your message"></textarea>
+        </div>
+        <div class="text-center">
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-gray-300 shadow py-6">
+    <div class="container mx-auto px-6 text-center">
+      <p class="text-black mb-4">© 2024 Divij P. All rights reserved.</p>
+      <p class="text-black mb-4">Contact Details:</p>
+      <p class="text-black">Mobile: <a href="tel:+91 6282472416" class="text-blue-500 hover:text-blue-900">+91 6282472416</a></p>
+      <p class="text-black">Email: <a href="mailto:divijmon@gmail.com" class="text-blue-500 hover:text-blue-900">divijmon@gmail.com</a></p>
+      <p class="text-black">
+        LinkedIn: <a href="https://www.linkedin.com/in/divij-p-623a45205/" target="_blank" class="text-blue-500 hover:text-blue-900">divij-p-623a45205/</a>
+      </p>
+      <p class="text-black">
+        GitHub: <a href="https://github.com/Divij860" target="_blank" class="text-blue-500 hover:text-blue-900">Divij860</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
